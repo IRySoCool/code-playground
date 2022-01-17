@@ -104,8 +104,8 @@ f3 :: Expr Double
 f3 = Pow(Symbol 'y' ✕ Symbol 'x' ✕ Symbol 'z') (-1)
 
 -- it follows somewhat called d^2 = 0 in differential forms.
--- the intuitive meaning if it is basically taking the boundary 
--- of boundary, which obviously is an empty set.
+-- the intuitive meaning of it is basically taking the boundary 
+-- of boundary on a smooth manifold, which obviously an empty set.
 m :: M.Map Char Double
 m = M.fromList [('x', 1), ('y', 1), ('z', 1)]
 f :: Expr Double -> [Either String Double]
