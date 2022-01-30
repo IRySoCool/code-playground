@@ -1,5 +1,5 @@
 { 
-    pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-21.11.tar.gz") {}
+    pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-21.05.tar.gz") {}
 }:
 let
   inherit (pkgs) haskell haskellPackages mkShell;
