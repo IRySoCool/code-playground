@@ -9,6 +9,7 @@ let
       matrix
       string-interpolate
       brick
+      unliftio
   ];
 
   ghc = haskellPackages.ghcWithPackages haskell-deps;
