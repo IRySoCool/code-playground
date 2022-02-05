@@ -10,6 +10,7 @@ let
       string-interpolate
       brick
       unliftio
+      criterion
   ];
 
   ghc = haskellPackages.ghcWithPackages haskell-deps;
